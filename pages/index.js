@@ -22,14 +22,14 @@ export default function Home() {
       </Box>
 
 
-      <FormControl id="email" isRequired>
+      <FormControl id="email" p={4} isRequired>
         <FormLabel>Email</FormLabel>
         <Input type="email" />
         <FormHelperText>Nunca vamos compartilhar o seu email</FormHelperText>
       </FormControl>
       
-      <FormControl id="password" isRequired>
-        <FormLabel>Email</FormLabel>
+      <FormControl id="password"  p={4} isRequired>
+        <FormLabel>Senha</FormLabel>
         <Input type="password" />
         
       </FormControl>
